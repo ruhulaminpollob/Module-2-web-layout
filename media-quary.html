@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rasponsiv</title>
+    <style>
+      .food {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+      }
+      .card {
+        padding: 10px;
+        border-radius: 10px;
+
+        box-shadow: 4px 4px 8px gray;
+      }
+      img {
+        width: 100%;
+      }
+      button {
+        background-color: black;
+        color: whitesmoke;
+        padding: 10px 15px;
+        border-radius: 5px;
+      }
+      button:hover {
+        box-shadow: 4px 4px 16px gray;
+        text-shadow: 1px 1px 4px whitesmoke;
+      }
+      span {
+        font-size: small;
+        text-decoration: line-through red;
+      }
+      @media screen and (max-width: 576px) {
+        .food {
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+      @media screen and (min-width: 577px) and (max-width: 992px) {
+        .food {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="food">
+      <div class="card">
+        <img src="bargar.jpg" alt="" />
+        <h2>Supper Bargar</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos
+          beatae at itaque iste debitis qui explicabo voluptate cumque. Maiores,
+          distinctio?
+        </p>
+        <h3>Prise:<span>200 Taka</span>150 Taka</h3>
+        <button>Order Now</button>
+      </div>
+      <div class="card">
+        <img src="bargar.jpg" alt="" />
+        <h2>Supper Bargar</h2>
+        <p>
+          Magnam enim sunt at dolores sequi, delectus voluptate illum cupiditate
+          ex, itaque repellendus qui laudantium provident fugit quisquam, maxime
+          dicta.
+        </p>
+        <h3>Prise:<span>200 Taka</span>150 Taka</h3>
+        <button>Order Now</button>
+      </div>
+      <div class="card">
+        <img src="bargar.jpg" alt="" />
+        <h2>Supper Bargar</h2>
+        <p>
+          Magni consectetur quis animi esse aperiam explicabo! Cumque quasi cum
+          incidunt qui ex dicta blanditiis. Aut ratione mollitia optio ut.
+        </p>
+        <h3>Prise:<span>200 Taka</span>150 Taka</h3>
+        <button>Order Now</button>
+      </div>
+      <div class="card">
+        <img src="bargar.jpg" alt="" />
+        <h2>Supper Bargar</h2>
+        <p>
+          Sequi ea eveniet, optio sapiente fugiat fuga nam minima, laborum
+          quaerat, aliquid porro animi vel odio quam ipsum. Amet, facere.
+        </p>
+        <h3>Prise:1<span>200 Taka</span>150 Taka</h3>
+        <button>Order Now</button>
+      </div>
+      <div class="card">
+        <img src="bargar.jpg" alt="" />
+        <h2>Supper Bargar</h2>
+        <p>
+          Eaque deserunt aliquid iure iusto dicta omnis recusandae sit dolores
+          quaerat soluta, cupiditate, ratione cum saepe sequi eius dolorem at?
+        </p>
+        <h3>Prise:<span>200 Taka</span>150 Taka</h3>
+        <button>Order Now</button>
+      </div>
+      <div class="card">
+        <img src="bargar.jpg" alt="" />
+        <h2>Supper Bargar</h2>
+        <p>
+          Voluptas, voluptatum, exercitationem explicabo ipsum necessitatibus
+          veniam quo id ea, cumque commodi eveniet! Accusantium nulla omnis
+          obcaecati ratione aliquid maxime?
+        </p>
+        <h3>Prise:<span>200 Taka</span>150 Taka</h3>
+        <button>Order Now</button>
+      </div>
+    </section>
+  </body>
+</html>
